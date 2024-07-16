@@ -1,12 +1,12 @@
 node {
     stage('Build') {
         
-      echo "start"
+      echo "starts eswar"
     }
 
     stage('Test') {
     
-        echo "test"
+        echo "test eswaer"
     }
 
     stage('Deploy') {
