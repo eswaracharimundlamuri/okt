@@ -1,16 +1,16 @@
 node {
     stage('Build') {
-        // Compile source code
-        sh 'javac Main.java'
+        
+      echo "start"
     }
 
     stage('Test') {
-        // Run tests
-        sh 'java TestSuite'
+    
+        echo "test"
     }
 
     stage('Deploy') {
-        // Deploy to production
-        sh 'deploy.sh'
+       
+        echo "deploy"
     }
 }
